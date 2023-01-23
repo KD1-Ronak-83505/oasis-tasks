@@ -1,0 +1,42 @@
+.projects-section-container {
+  display: flex;
+  justify-content: center;
+}
+.home__title-color {
+  color: lightcoral;
+}
+#title1 {
+  margin-left: 80px;
+}
+.projects-section {
+  width: 80%;
+  margin: 0 auto;
+}
+.link {
+  color: cornflowerblue;
+}
+.link:hover {
+  text-decoration: black;
+}
+.project {
+  margin-bottom: 30px;
+  margin-left: 80px;
+  margin-right: 20px;
+}
+
+.project img {
+  width: 100%;
+}
+
+#img1 {
+  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  width: 500px;
+}
+
+#img1:hover {
+  transition: 1s;
+  overflow: hidden;
+  transform: scale(1.1);
+}

@@ -1,0 +1,184 @@
+/* Reset default styles */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Custom styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+#about{
+    border:2px solid rgb(145, 183, 239);
+    padding:20px;
+    border-radius: 15px;
+}
+#about:hover
+{
+    box-shadow: 5px 10px 18px #888888;
+    transition: ease 0.4s;
+}
+#features{
+    border:2px solid rgb(145, 183, 239);
+    padding:20px;
+    border-radius: 15px;
+}
+#features:hover
+{
+    box-shadow: 5px 10px 18px #888888;
+    transition: ease 0.4s;
+}
+#pricing{
+    border:2px solid rgb(145, 183, 239);
+    padding:20px;
+    border-radius: 15px;
+}
+#pricing:hover
+{
+    box-shadow: 5px 10px 18px #888888;
+    transition: ease 0.4s;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0;
+  border: 2px solid blue;
+  font-size: 30px;
+}
+
+nav {
+  background-color: rgb(113, 153, 239);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 20px;
+
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+nav li a:hover {
+  background-color: rgb(236, 196, 196);
+  box-shadow: 8px;
+
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: rgb(157, 213, 239);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+section#faq {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  section#faq:hover {
+    background-color: #ecf1ff;
+  }
+  section#faq h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  section#faq div {
+    margin-bottom: 20px;
+  }
+  
+  section#faq h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  section#faq p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+  }
+
+  h3{
+    font-style: italic;
+  }
